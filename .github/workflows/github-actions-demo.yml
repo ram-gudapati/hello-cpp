@@ -12,10 +12,10 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: install cppunit
-      run: sudo apt install -y libcppunit-dev
+        run: sudo apt install -y libcppunit-dev
       - name: configure
-      run: autoreconf -i; mkdir -p build; cd build;../configure
+        run: autoreconf -i; mkdir -p build; cd build;../configure
       - name: make
-      run: make
+        run: make
       - name: test
-      run: ./prog1
+        run: ./prog1
