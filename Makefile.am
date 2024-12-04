@@ -8,6 +8,8 @@ noinst_LTLIBRARIES = lib1.la
 
 prog1_SOURCES = \
 	src/prog1/main.cpp
+prog1_CPPFLAGS = -DDEBUG
+prog1_LDADD = $(noinst_LTLIBRARIES)
 
 
 lib1_la_SOURCES = \
