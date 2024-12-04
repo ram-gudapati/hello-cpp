@@ -1,5 +1,5 @@
 #include <stdio.h>
 
 int main(int argc, char *argv[]) {
-    printf("Prog 1 commit\n");
+    printf("Prog 1 commit test\n");
 }
