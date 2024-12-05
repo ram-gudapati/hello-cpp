@@ -3,7 +3,7 @@ ACLOCAL_AMFLAGS = -I m4 --install
 AM_CXXFLAGS = -g -Wall -Wshadow -Wnon-virtual-dtor -pedantic $(DEPS_CXXFLAGS)
 AM_LIBS = $(DEPS_LIBS)
 
-bin_PROGRAMS = prog1 
+bin_PROGRAMS = prog1 prog2
 noinst_LTLIBRARIES = lib1.la
 lib_LTLIBRARIES = lib2.la
 
