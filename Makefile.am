@@ -26,4 +26,3 @@ lib1_la_LDFLAGS = -static
 lib2_la_SOURCES = \
 	src/lib2/lib2.cpp \
 	src/lib2/lib2.hpp
-lib2_la_LIBADD = -lncurses
