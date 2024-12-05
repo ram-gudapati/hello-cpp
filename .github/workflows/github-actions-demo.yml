@@ -14,4 +14,4 @@ jobs:
       - name: install cppunit
         run: sudo apt install -y libcppunit-dev
       - name: configure
-        run: autoreconf -i; mkdir -p build; cd build;../configure;make;./prog1
+        run: autoreconf -i; mkdir -p build; cd build;../configure;make;./prog1;./prog2
