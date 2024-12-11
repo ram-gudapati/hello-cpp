@@ -6,5 +6,5 @@
 int main(int argc, char *argv[]) {
 
     printf("libfunc1(%d) call: %d\n", 2, libfunc1(2));
-    printf("libfunc2(%d) call: %d\n", 3, libfunc2(3));
+    printf("libfunc2(%d) call: %d\n", 4, libfunc2(4));
 }
